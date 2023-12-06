@@ -137,7 +137,7 @@ function ServerContainer({ serverName }: { serverName: string }) {
     dcsMap = Sinai;
   } else if (refLat >= 28 && refLat < 38 && refLng >= 27 && refLng <= 42) {
     dcsMap = Syria;
-  } else if (refLat >= 20 && refLat <= 33 && refLng >= 46 && refLng <= 64) {
+  } else if (refLat >= 19 && refLat <= 33 && refLng >= 46 && refLng <= 64) {
     dcsMap = PersianGulf;
   } else if (refLat >= 7 && refLat <= 23 && refLng >= 136 && refLng <= 153) {
     dcsMap = Marianas;
