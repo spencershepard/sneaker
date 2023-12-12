@@ -1,0 +1,8 @@
+sneaker.exe
+cmd\sneaker-server\resource.syso
+dist\*.ico
+dist\*.mp3
+dist\*.LICENSE.txt
+dist\*.js
+dist\*.html
+dist\*.css
