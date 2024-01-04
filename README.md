@@ -17,6 +17,16 @@ A live example of Sneaker can be viewed [here](https://sneaker.precontact.net/).
 3. Run the executable with the configuration path: `sneaker.exe --config config.json`
 4. Browse to http://localhost:7788 to access Sneaker GCI. To make the website available over the network, specify the bind parameter like so: `sneaker.exe --config config.json --bind 0.0.0.0:7788`
 
+## Docker Container
+
+If you prefer to run Sneaker in a Docker container, you can build the image yourself with:
+
+`docker build -t sneaker .`
+
+Then run the container with:
+
+`docker run -p 7788:7788 -v /path/to/config.json:/app/config.json sneaker`
+
 ### Discord Integration
 
 Sneaker features a built-in Discord integration which provides basic server information and GCI duty tracking via Discord slash-commands.
