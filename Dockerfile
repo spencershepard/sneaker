@@ -11,5 +11,5 @@ RUN go generate
 RUN go build -v -o /usr/local/bin/sneaker-server
 EXPOSE 7788
 WORKDIR /app
-RUN cp example.config.json config.json
-CMD [ "sneaker-server", "--config",  "/app/config.json", "--bind",  "0.0.0.0:7788" ]
+RUN cp example.config.json /app/config/config.json
+CMD [ "sneaker-server", "--config",  "/app/config/config.json", "--bind",  "0.0.0.0:7788" ]

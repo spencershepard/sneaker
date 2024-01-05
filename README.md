@@ -25,7 +25,7 @@ If you prefer to run Sneaker in a Docker container, you can build the image your
 
 Then run the container with:
 
-`docker run -p 7788:7788 -v /path/to/config.json:/app/config.json sneaker`
+`docker run -p 7788:7788 -v /path/to/config.json:/app/config/config.json sneaker`
 
 ### Discord Integration
 
