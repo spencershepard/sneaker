@@ -154,7 +154,7 @@ function ServerContainer({ serverName }: { serverName: string }) {
 	dcsMap = Kola;
   } else if (refLat >= 28 && refLat <= 39 && refLng >= 60 && refLng <= 74) {
 	dcsMap = Afghanistan;
-  } else if (refLat >= 46 && refLat <= 56 && refLng >= 3 && refLng <= 18) {
+  } else if (refLat >= 42 && refLat <= 56 && refLng >= 1 && refLng <= 18) {
 	dcsMap = GermanyCW;
   } else {
     console.log(refLat, refLng);
